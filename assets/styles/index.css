@@ -1,16 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 /*Reset do CSS */
 * {
-    margin: 13px;
-    padding: 1px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-h1, p {
-    text-align: center;
+/*Configurações Gerais */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
 }
+
+
 
 header {
     background-color: rgb(255, 120, 143);
     color: rgb(240, 248, 255);
-    font-style: oblique;
-    padding: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+main {
+    background-color: rgb(253, 246, 246);
+    flex: 1;
+    padding: 48px 38px;
+    width: 100%;
+}
+
+about-section{
+    display: block;
+    background-color: rgb(255, 217, 217); 
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+#titulo-sobre-mim {
+    font-size: 23px;
+    border-bottom: 2px solid rgb(255, 121, 143);  
+}
+
+.texto-sobre-mim {
+    font-size: 18px;
 }
